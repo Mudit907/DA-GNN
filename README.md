@@ -31,7 +31,7 @@ The model is trained on district-level crime data from **Chicago (Jan–Mar 2023
 
 ## 🏗️ Architecture
 
-  District Graph + Exogenous Features
+  District Graph + Exogenous Features 
                  │
             [Spatial GAT]
                  │
