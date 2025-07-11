@@ -45,11 +45,8 @@ District Graph + Exogenous Features
 │
 [Spatial GAT]
 │
-┌─────┴─────┐
-│           │
 [Temporal Encoder] ← Dual Attention →
 │
-└─────┬─────┘
 ↓
 [Forecasted Crime Risk]
 ↓
