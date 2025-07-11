@@ -31,16 +31,26 @@ The model is trained on district-level crime data from **Chicago (Jan–Mar 2023
 
 ## 🏗️ Architecture
 
-  District Graph + Exogenous Features 
-                 │
-            [Spatial GAT]
-                 │
-           ┌─────┴─────┐
-      │          
+Markdown
+
+# Crime Risk Forecasting and Patrol Optimization
+
+This repository presents a novel framework for forecasting crime risk and optimizing police patrol routes. The system leverages a multi-component architecture, integrating spatial-temporal learning with an optimization algorithm.
+
+## System Architecture
+
+The core components of our system are visualized below:
+
+District Graph + Exogenous Features
+│
+[Spatial GAT]
+│
+┌─────┴─────┐
+│           │
 [Temporal Encoder] ← Dual Attention →
-                 │
-           └─────┬─────┘
-                 ↓
-     [Forecasted Crime Risk]
-                 ↓
-   [QPSO-Based Patrol Optimizer]
+│
+└─────┬─────┘
+↓
+[Forecasted Crime Risk]
+↓
+[QPSO-Based Patrol Optimizer]
